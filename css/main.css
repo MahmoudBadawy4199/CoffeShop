@@ -1,0 +1,19 @@
+/* Global */ 
+:root {
+    --main-color:#be9c79;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --border: .2rem solid var(--black);
+    --box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
